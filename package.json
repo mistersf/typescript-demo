@@ -2,5 +2,8 @@
   "dependencies": {
     "tsc": "^2.0.4",
     "typescript": "^5.4.2"
-  }ts
+  },
+  "scripts":{
+    "build": "tsc"
+  }
 }
