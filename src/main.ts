@@ -1,4 +1,4 @@
 let testElement: HTMLElement | null = document.getElementById("test");
 if (testElement != null){
-    testElement.innerText = "It works!";
+    testElement.innerText = "It works manually!";
 }
