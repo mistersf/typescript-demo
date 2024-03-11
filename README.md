@@ -17,7 +17,9 @@ Typescript is configured to compile all of your Javascript
 into a single file, "./out/main.js", which the HTML file should then link
 with a \<script\> tag.
 
-Run `tsc` or `npm run build` to build that file,
+Run `npm i` to install any dependencies the first time you set this project up on a given machine or codespace.
+
+Run `npx tsc` or `npm run build` to build "main.js",
 then commit and push your changes and you're good to go!
 There is a GitHub Action that automatically deploys the "./out" directory
 to https://\<your_username\>.github.io/\<your_repo\> .
